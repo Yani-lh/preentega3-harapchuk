@@ -1,0 +1,13 @@
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin parrafocontacto {
+    text-align: left;
+    font-size: $tam-fuente;
+    padding: ($margenvs*2) ;
+    margin: ($margenvs*2);
+    font-weight: bold;
+ }
